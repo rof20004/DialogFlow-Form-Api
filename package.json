@@ -7,7 +7,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "prebuild": "rimraf dist",
-    "build": "nest build",
+    "build": "nest build && cp newagent-nogv-53333f11ec91.json dist",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
     "start:dev": "GOOGLE_APPLICATION_CREDENTIALS=./newagent-nogv-53333f11ec91.json nest start --watch",
